@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aa18899e48c5484d9660c49092f28724" Name="Diagram1">
+        <EntityTypeShape EntityType="newdbModel.Category" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="newdbModel.Invoice" Width="1.5" PointX="5.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="newdbModel.Order" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="newdbModel.Order_Details" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="newdbModel.Payment" Width="1.5" PointX="8" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="newdbModel.Product" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="newdbModel.ProductCategory" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="newdbModel.ShoppingCart" Width="1.5" PointX="3.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="newdbModel.ShoppingCart_Details" Width="1.5" PointX="6" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="newdbModel.User" Width="1.5" PointX="8.75" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="newdbModel.FK_Category_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="newdbModel.FK_ProductCategory_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="newdbModel.FK_Payment_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="newdbModel.FK_Order_Details_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="newdbModel.FK_Order_Details_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="newdbModel.FK_ProductCategory_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="newdbModel.FK_ShoppingCart_Details_Product1" ManuallyRouted="false" />
+        <AssociationConnector Association="newdbModel.FK_ShoppingCart_Details_ShoppingCart" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
